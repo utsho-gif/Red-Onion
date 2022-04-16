@@ -6,6 +6,7 @@ import Heade from "./Pages/Shared/Header/Heade";
 import Breakfasts from "./Pages/Home/Breakfasts/Breakfasts";
 import Lunches from "./Pages/Home/Lunches/Lunches";
 import Dinners from "./Pages/Home/Dinners/Dinners";
+import Login from "./Pages/Login/Login/Login";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/home/lunch" element={<Lunches></Lunches>}></Route>
           <Route path="/home/dinner" element={<Dinners></Dinners>}></Route>
         </Route>
+        <Route path="/login" element={<Login></Login>}></Route>
       </Routes>
     </div>
   );
